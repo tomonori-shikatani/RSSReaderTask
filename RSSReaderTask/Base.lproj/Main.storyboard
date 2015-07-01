@@ -54,7 +54,7 @@
                                     </constraints>
                                 </tableViewCellContentView>
                                 <connections>
-                                    <segue destination="qDa-3v-BdA" kind="show" identifier="" id="910-re-9kg"/>
+                                    <segue destination="qDa-3v-BdA" kind="show" id="qsW-pU-SkY"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -88,6 +88,9 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="myWebView" destination="i1F-YY-smb" id="8rV-AS-wn8"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NEh-bR-5Ia" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -8,12 +8,21 @@
 
 import UIKit
 
-class articleWebpageViewController: UIViewController {
+class articleWebpageViewController: UIViewController, UIWebViewDelegate {
 
+    @IBOutlet weak var myWebView: UIWebView!
+    
+    var articleURL:String = ""
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
+        let url = NSURL(string: articleURL)
+        let request = NSURLRequest(URL: url!)
+        self.myWebView.loadRequest(request)
+        myWebView.delegate = self
+        
     }
 
     override func didReceiveMemoryWarning() {
