@@ -40,6 +40,7 @@ class articlesSummaryTableViewController: UITableViewController {
     }
     
     override func tableView(tableView: UITableView, heightForRowAtIndexPath indexPath: NSIndexPath) -> CGFloat {
+        // セルの高さを88に変更
         return 88
     }
 
@@ -47,7 +48,14 @@ class articlesSummaryTableViewController: UITableViewController {
         let cell = tableView.dequeueReusableCellWithIdentifier("articleCell", forIndexPath: indexPath) as! UITableViewCell
 
         // Configure the cell...
-
+        let articleTitleLabel = cell.viewWithTag(1) as! UILabel
+        let articleURLLable   = cell.viewWithTag(2) as! UILabel
+        let articleDateLabel  = cell.viewWithTag(3) as! UILabel
+        
+        articleTitleLabel.text = "Apple Music 日本でスタート"
+        articleURLLable.text   = "http://headlines.yahoo.co.jp/hl?a=20..."
+        articleDateLabel.text  = "7月1日(水)0時32分配信"
+        
         return cell
     }
 
