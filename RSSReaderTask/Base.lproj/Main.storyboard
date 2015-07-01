@@ -7,7 +7,7 @@
         <!--Home-->
         <scene sceneID="RWd-HL-OAl">
             <objects>
-                <tableViewController id="d7u-NT-OYE" sceneMemberID="viewController">
+                <tableViewController id="d7u-NT-OYE" customClass="articlesSummaryTableViewController" customModule="RSSReaderTask" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="22" sectionFooterHeight="22" id="mqa-e3-mzj">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -34,10 +34,10 @@
             </objects>
             <point key="canvasLocation" x="2039" y="272"/>
         </scene>
-        <!--View Controller-->
+        <!--Article Webpage View Controller-->
         <scene sceneID="99L-PV-Df4">
             <objects>
-                <viewController id="qDa-3v-BdA" sceneMemberID="viewController">
+                <viewController id="qDa-3v-BdA" customClass="articleWebpageViewController" customModule="RSSReaderTask" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="2fc-FI-F3Y"/>
                         <viewControllerLayoutGuide type="bottom" id="AEE-cY-Qm1"/>

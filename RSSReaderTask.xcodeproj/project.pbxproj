@@ -8,8 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		03B6BD7691010364F8FBEFAB /* libPods-RSSReaderTask.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE33E0F2D91A8B53A65CB36F /* libPods-RSSReaderTask.a */; };
+		340A7AF31B444A0100DEFFFC /* articlesSummaryTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A7AF21B444A0100DEFFFC /* articlesSummaryTableViewController.swift */; };
+		340A7AF51B444A8700DEFFFC /* articleWebpageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 340A7AF41B444A8700DEFFFC /* articleWebpageViewController.swift */; };
 		34C340CC1B44439A001C6375 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C340CB1B44439A001C6375 /* AppDelegate.swift */; };
-		34C340CE1B44439A001C6375 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C340CD1B44439A001C6375 /* ViewController.swift */; };
 		34C340D11B44439A001C6375 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 34C340CF1B44439A001C6375 /* Main.storyboard */; };
 		34C340D31B44439A001C6375 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C340D21B44439A001C6375 /* Images.xcassets */; };
 		34C340D61B44439A001C6375 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34C340D41B44439A001C6375 /* LaunchScreen.xib */; };
@@ -29,10 +30,11 @@
 /* Begin PBXFileReference section */
 		0D9035CAF496FA923C613517 /* Pods-RSSReaderTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReaderTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSReaderTask/Pods-RSSReaderTask.release.xcconfig"; sourceTree = "<group>"; };
 		340A7AF11B44453B00DEFFFC /* RSSReaderTask-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReaderTask-Bridging-Header.h"; sourceTree = "<group>"; };
+		340A7AF21B444A0100DEFFFC /* articlesSummaryTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = articlesSummaryTableViewController.swift; sourceTree = "<group>"; };
+		340A7AF41B444A8700DEFFFC /* articleWebpageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = articleWebpageViewController.swift; sourceTree = "<group>"; };
 		34C340C61B44439A001C6375 /* RSSReaderTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReaderTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C340CA1B44439A001C6375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C340CB1B44439A001C6375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		34C340CD1B44439A001C6375 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		34C340D01B44439A001C6375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		34C340D21B44439A001C6375 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		34C340D51B44439A001C6375 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -87,8 +89,9 @@
 			children = (
 				340A7AF11B44453B00DEFFFC /* RSSReaderTask-Bridging-Header.h */,
 				34C340CB1B44439A001C6375 /* AppDelegate.swift */,
-				34C340CD1B44439A001C6375 /* ViewController.swift */,
 				34C340CF1B44439A001C6375 /* Main.storyboard */,
+				340A7AF41B444A8700DEFFFC /* articleWebpageViewController.swift */,
+				340A7AF21B444A0100DEFFFC /* articlesSummaryTableViewController.swift */,
 				34C340D21B44439A001C6375 /* Images.xcassets */,
 				34C340D41B44439A001C6375 /* LaunchScreen.xib */,
 				34C340C91B44439A001C6375 /* Supporting Files */,
@@ -273,8 +276,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				34C340CE1B44439A001C6375 /* ViewController.swift in Sources */,
+				340A7AF31B444A0100DEFFFC /* articlesSummaryTableViewController.swift in Sources */,
 				34C340CC1B44439A001C6375 /* AppDelegate.swift in Sources */,
+				340A7AF51B444A8700DEFFFC /* articleWebpageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
