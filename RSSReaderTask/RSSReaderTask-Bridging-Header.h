@@ -6,8 +6,6 @@
 //  Copyright (c) 2015年 ShikataniTomonori. All rights reserved.
 //
 
-#ifndef RSSReaderTask_RSSReaderTask_Bridging_Header_h
-#define RSSReaderTask_RSSReaderTask_Bridging_Header_h
+#import <SVProgressHUD.h>
+#import <MWFeedParser.h>
 
-
-#endif

@@ -28,6 +28,7 @@
 
 /* Begin PBXFileReference section */
 		0D9035CAF496FA923C613517 /* Pods-RSSReaderTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSSReaderTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSSReaderTask/Pods-RSSReaderTask.release.xcconfig"; sourceTree = "<group>"; };
+		340A7AF11B44453B00DEFFFC /* RSSReaderTask-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSReaderTask-Bridging-Header.h"; sourceTree = "<group>"; };
 		34C340C61B44439A001C6375 /* RSSReaderTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSReaderTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C340CA1B44439A001C6375 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		34C340CB1B44439A001C6375 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +85,7 @@
 		34C340C81B44439A001C6375 /* RSSReaderTask */ = {
 			isa = PBXGroup;
 			children = (
+				340A7AF11B44453B00DEFFFC /* RSSReaderTask-Bridging-Header.h */,
 				34C340CB1B44439A001C6375 /* AppDelegate.swift */,
 				34C340CD1B44439A001C6375 /* ViewController.swift */,
 				34C340CF1B44439A001C6375 /* Main.storyboard */,
@@ -403,6 +405,7 @@
 				INFOPLIST_FILE = RSSReaderTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSReaderTask/RSSReaderTask-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -414,6 +417,7 @@
 				INFOPLIST_FILE = RSSReaderTask/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "RSSReaderTask/RSSReaderTask-Bridging-Header.h";
 			};
 			name = Release;
 		};
