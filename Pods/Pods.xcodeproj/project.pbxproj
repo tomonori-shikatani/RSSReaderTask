@@ -1,0 +1,654 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04C03A7FBBF00C5121D44886 /* Pods-RSSReaderTask-MWFeedParser-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5019E87C3375F8F83D3DF694 /* Pods-RSSReaderTask-MWFeedParser-dummy.m */; };
+		0BC53EEB18C5A11798F219EC /* SVIndefiniteAnimatedView.h in Headers */ = {isa = PBXBuildFile; fileRef = A3CC485BD2315A57FDEEF507 /* SVIndefiniteAnimatedView.h */; };
+		12558D4C41AC46E115D033BD /* Pods-RSSReaderTask-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 69A04D817A6D4833024CAE99 /* Pods-RSSReaderTask-dummy.m */; };
+		28A438D1872976A67406CD95 /* MWFeedInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E5628914770B069F0B1E4DA /* MWFeedInfo.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		2E16672FED99FB8E2E31D32E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49B5A856CF8F8E8D43C93D4 /* Foundation.framework */; };
+		3B7FCFB0177525EE4A349F85 /* Pods-RSSReaderTask-SVProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED5FC1DFABCAD8179B73B830 /* Pods-RSSReaderTask-SVProgressHUD-dummy.m */; };
+		49580E645711D35B3057B0B8 /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E5DB16AE562C7B3A128CB2F /* SVIndefiniteAnimatedView.m */; };
+		62BEAF2650449C5C05856497 /* NSDate+InternetDateTime.h in Headers */ = {isa = PBXBuildFile; fileRef = B4CE508AC609DD7A824A03D1 /* NSDate+InternetDateTime.h */; };
+		662BD662CEE80EFF7128C035 /* MWFeedParser.m in Sources */ = {isa = PBXBuildFile; fileRef = C1FC2E73A921B57E97AD0759 /* MWFeedParser.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		70A242ACCDFD0D10410D5D4D /* MWFeedInfo.h in Headers */ = {isa = PBXBuildFile; fileRef = CC2ED64F8C6B245EB8C561D2 /* MWFeedInfo.h */; };
+		7606A7384C4398459516C3D4 /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = D6B6285699EB0D0AA2B704A1 /* SVProgressHUD.m */; };
+		77E88C7720107ACB203235F4 /* MWFeedItem.h in Headers */ = {isa = PBXBuildFile; fileRef = 010D57937EF68D579E7BBDA6 /* MWFeedItem.h */; };
+		852D8397FD2D2DFCC2BDBF31 /* MWFeedParser_Private.h in Headers */ = {isa = PBXBuildFile; fileRef = 07B58E8487500C91328A81A9 /* MWFeedParser_Private.h */; };
+		8B29A786AA5F018CCB11476A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49B5A856CF8F8E8D43C93D4 /* Foundation.framework */; };
+		94A7511AEA35E5958055D73B /* MWFeedParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 5CC42B06CA440EE1886BC60A /* MWFeedParser.h */; };
+		9707B406C236BDBB043A4DE2 /* NSDate+InternetDateTime.m in Sources */ = {isa = PBXBuildFile; fileRef = B453E5226DAEB2E60422C966 /* NSDate+InternetDateTime.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9B48CAB7C40BBFC8BF72E7C2 /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = C4E5779DBFDCE6E2DBCCA505 /* NSString+HTML.h */; };
+		AD36EEE22B1BDDC06FCD2B6A /* MWFeedItem.m in Sources */ = {isa = PBXBuildFile; fileRef = FB81E4A8A0AF1EF5FF3B06C9 /* MWFeedItem.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B017ECDCD9163B4A9AA50894 /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = DE5BCCA86C7F246E6E66A986 /* GTMNSString+HTML.h */; };
+		B88E3F368F1374EE2754FBB4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E49B5A856CF8F8E8D43C93D4 /* Foundation.framework */; };
+		BCB388DEA093BA55E5F225FC /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 861C3D48E2CFD4F1175BD076 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		D3CFBE073A80BE40CD60AED2 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = CC36FBC715626AC62CC6DA56 /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DC4679AC519EE98EBAD663D3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FAE3BE7F711F8E170A4BA93 /* QuartzCore.framework */; };
+		ED7D8025145DF11A51BE736D /* SVProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 7607A23A1D8E0B99E22C8FAB /* SVProgressHUD.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		37251714B140C73910D441CC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F47B68B0460457E10CFFB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CCF8B518178A2B7E4BF24A8C;
+			remoteInfo = "Pods-RSSReaderTask-MWFeedParser";
+		};
+		C6F4C2B1363F3EC4FBF7463D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3F47B68B0460457E10CFFB02 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 242698BF872E838EE30DAF62;
+			remoteInfo = "Pods-RSSReaderTask-SVProgressHUD";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		010D57937EF68D579E7BBDA6 /* MWFeedItem.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWFeedItem.h; path = Classes/MWFeedItem.h; sourceTree = "<group>"; };
+		05148558A8AA9B81C51188BE /* libPods-RSSReaderTask-MWFeedParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSSReaderTask-MWFeedParser.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		07B58E8487500C91328A81A9 /* MWFeedParser_Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWFeedParser_Private.h; path = Classes/MWFeedParser_Private.h; sourceTree = "<group>"; };
+		12B2C24560725D6748580A9A /* Pods-RSSReaderTask-SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSSReaderTask-SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		17D08858E220D12C9C68A8CC /* Pods-RSSReaderTask-MWFeedParser-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSSReaderTask-MWFeedParser-prefix.pch"; sourceTree = "<group>"; };
+		18247BAE7D20DB091A69D017 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		1E79BF47B37F6BD61B636238 /* Pods-RSSReaderTask-SVProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSReaderTask-SVProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		20815F5104700E9EEA06D599 /* libPods-RSSReaderTask-SVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSSReaderTask-SVProgressHUD.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E5DB16AE562C7B3A128CB2F /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		2FAE3BE7F711F8E170A4BA93 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		3A9CC989B152710A43BD04EC /* Pods-RSSReaderTask-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RSSReaderTask-resources.sh"; sourceTree = "<group>"; };
+		41AF6616ABE88AD0CAB20238 /* Pods-RSSReaderTask-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RSSReaderTask-acknowledgements.plist"; sourceTree = "<group>"; };
+		5019E87C3375F8F83D3DF694 /* Pods-RSSReaderTask-MWFeedParser-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSSReaderTask-MWFeedParser-dummy.m"; sourceTree = "<group>"; };
+		511CE6DE3A5AF2DF23E47697 /* Pods-RSSReaderTask-SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSReaderTask-SVProgressHUD.xcconfig"; sourceTree = "<group>"; };
+		5CC42B06CA440EE1886BC60A /* MWFeedParser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWFeedParser.h; path = Classes/MWFeedParser.h; sourceTree = "<group>"; };
+		69A04D817A6D4833024CAE99 /* Pods-RSSReaderTask-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSSReaderTask-dummy.m"; sourceTree = "<group>"; };
+		6E5628914770B069F0B1E4DA /* MWFeedInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MWFeedInfo.m; path = Classes/MWFeedInfo.m; sourceTree = "<group>"; };
+		718D697BB827C420EF1D8EFD /* Pods-RSSReaderTask-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RSSReaderTask-environment.h"; sourceTree = "<group>"; };
+		7607A23A1D8E0B99E22C8FAB /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
+		85A2B0B5C245EF03326DC912 /* Pods-RSSReaderTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSReaderTask.debug.xcconfig"; sourceTree = "<group>"; };
+		861C3D48E2CFD4F1175BD076 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "Classes/GTMNSString+HTML.m"; sourceTree = "<group>"; };
+		A3CC485BD2315A57FDEEF507 /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		AA00EBB6B34F1B0DAAE6C30F /* libPods-RSSReaderTask.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RSSReaderTask.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B10F400030333FAE54E7E5D7 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
+		B453E5226DAEB2E60422C966 /* NSDate+InternetDateTime.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+InternetDateTime.m"; path = "Classes/NSDate+InternetDateTime.m"; sourceTree = "<group>"; };
+		B4CE508AC609DD7A824A03D1 /* NSDate+InternetDateTime.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+InternetDateTime.h"; path = "Classes/NSDate+InternetDateTime.h"; sourceTree = "<group>"; };
+		BF85E62BCD0DF470F66DF18D /* Pods-RSSReaderTask-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RSSReaderTask-acknowledgements.markdown"; sourceTree = "<group>"; };
+		C1FC2E73A921B57E97AD0759 /* MWFeedParser.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MWFeedParser.m; path = Classes/MWFeedParser.m; sourceTree = "<group>"; };
+		C4E5779DBFDCE6E2DBCCA505 /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "Classes/NSString+HTML.h"; sourceTree = "<group>"; };
+		C67727E5BC2F6773B8F522AF /* Pods-RSSReaderTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSReaderTask.release.xcconfig"; sourceTree = "<group>"; };
+		CC2ED64F8C6B245EB8C561D2 /* MWFeedInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MWFeedInfo.h; path = Classes/MWFeedInfo.h; sourceTree = "<group>"; };
+		CC36FBC715626AC62CC6DA56 /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "Classes/NSString+HTML.m"; sourceTree = "<group>"; };
+		D6B6285699EB0D0AA2B704A1 /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
+		DE5BCCA86C7F246E6E66A986 /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "Classes/GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		E49B5A856CF8F8E8D43C93D4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E68A0A6E02CD6D80BB7D3208 /* Pods-RSSReaderTask-MWFeedParser-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSReaderTask-MWFeedParser-Private.xcconfig"; sourceTree = "<group>"; };
+		ED5FC1DFABCAD8179B73B830 /* Pods-RSSReaderTask-SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RSSReaderTask-SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		F9D0D6003C62AB854E0D267C /* Pods-RSSReaderTask-MWFeedParser.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RSSReaderTask-MWFeedParser.xcconfig"; sourceTree = "<group>"; };
+		FB81E4A8A0AF1EF5FF3B06C9 /* MWFeedItem.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MWFeedItem.m; path = Classes/MWFeedItem.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		74A199A0B246D2387A777A6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E16672FED99FB8E2E31D32E /* Foundation.framework in Frameworks */,
+				DC4679AC519EE98EBAD663D3 /* QuartzCore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4F5D6C1300B8B64D72E6E79 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B88E3F368F1374EE2754FBB4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FCFD85D452B50B0CFCAFC050 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B29A786AA5F018CCB11476A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		064CE6FCF0712554D77F2447 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F9D0D6003C62AB854E0D267C /* Pods-RSSReaderTask-MWFeedParser.xcconfig */,
+				E68A0A6E02CD6D80BB7D3208 /* Pods-RSSReaderTask-MWFeedParser-Private.xcconfig */,
+				5019E87C3375F8F83D3DF694 /* Pods-RSSReaderTask-MWFeedParser-dummy.m */,
+				17D08858E220D12C9C68A8CC /* Pods-RSSReaderTask-MWFeedParser-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-RSSReaderTask-MWFeedParser";
+			sourceTree = "<group>";
+		};
+		18013237924E8668DB3F57A6 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				E49B5A856CF8F8E8D43C93D4 /* Foundation.framework */,
+				2FAE3BE7F711F8E170A4BA93 /* QuartzCore.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		193C8EFC21F28F926A3EB31E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B10F400030333FAE54E7E5D7 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2237AA1170498F4BC09672B3 /* NSString+HTML */ = {
+			isa = PBXGroup;
+			children = (
+				DE5BCCA86C7F246E6E66A986 /* GTMNSString+HTML.h */,
+				861C3D48E2CFD4F1175BD076 /* GTMNSString+HTML.m */,
+				C4E5779DBFDCE6E2DBCCA505 /* NSString+HTML.h */,
+				CC36FBC715626AC62CC6DA56 /* NSString+HTML.m */,
+			);
+			name = "NSString+HTML";
+			sourceTree = "<group>";
+		};
+		4380AC8C814EBB078B0E148D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				511CE6DE3A5AF2DF23E47697 /* Pods-RSSReaderTask-SVProgressHUD.xcconfig */,
+				1E79BF47B37F6BD61B636238 /* Pods-RSSReaderTask-SVProgressHUD-Private.xcconfig */,
+				ED5FC1DFABCAD8179B73B830 /* Pods-RSSReaderTask-SVProgressHUD-dummy.m */,
+				12B2C24560725D6748580A9A /* Pods-RSSReaderTask-SVProgressHUD-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-RSSReaderTask-SVProgressHUD";
+			sourceTree = "<group>";
+		};
+		47E36C987BB7CB49D9406ED9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90508E17E537B31CCFD57F66 /* Pods-RSSReaderTask */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5BECA1B72339FB459255EC4F /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				A3CC485BD2315A57FDEEF507 /* SVIndefiniteAnimatedView.h */,
+				2E5DB16AE562C7B3A128CB2F /* SVIndefiniteAnimatedView.m */,
+				7607A23A1D8E0B99E22C8FAB /* SVProgressHUD.h */,
+				D6B6285699EB0D0AA2B704A1 /* SVProgressHUD.m */,
+				193C8EFC21F28F926A3EB31E /* Resources */,
+				4380AC8C814EBB078B0E148D /* Support Files */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		5E69F4BAD437BF607D132026 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BAD303FBD93640B64AD6A672 /* MWFeedParser */,
+				5BECA1B72339FB459255EC4F /* SVProgressHUD */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71901768F4ACA7B6BAA96120 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AA00EBB6B34F1B0DAAE6C30F /* libPods-RSSReaderTask.a */,
+				05148558A8AA9B81C51188BE /* libPods-RSSReaderTask-MWFeedParser.a */,
+				20815F5104700E9EEA06D599 /* libPods-RSSReaderTask-SVProgressHUD.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7A7638383D31E8673F6C31A4 /* FeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				CC2ED64F8C6B245EB8C561D2 /* MWFeedInfo.h */,
+				6E5628914770B069F0B1E4DA /* MWFeedInfo.m */,
+				010D57937EF68D579E7BBDA6 /* MWFeedItem.h */,
+				FB81E4A8A0AF1EF5FF3B06C9 /* MWFeedItem.m */,
+				5CC42B06CA440EE1886BC60A /* MWFeedParser.h */,
+				C1FC2E73A921B57E97AD0759 /* MWFeedParser.m */,
+				07B58E8487500C91328A81A9 /* MWFeedParser_Private.h */,
+			);
+			name = FeedParser;
+			sourceTree = "<group>";
+		};
+		90508E17E537B31CCFD57F66 /* Pods-RSSReaderTask */ = {
+			isa = PBXGroup;
+			children = (
+				BF85E62BCD0DF470F66DF18D /* Pods-RSSReaderTask-acknowledgements.markdown */,
+				41AF6616ABE88AD0CAB20238 /* Pods-RSSReaderTask-acknowledgements.plist */,
+				69A04D817A6D4833024CAE99 /* Pods-RSSReaderTask-dummy.m */,
+				718D697BB827C420EF1D8EFD /* Pods-RSSReaderTask-environment.h */,
+				3A9CC989B152710A43BD04EC /* Pods-RSSReaderTask-resources.sh */,
+				85A2B0B5C245EF03326DC912 /* Pods-RSSReaderTask.debug.xcconfig */,
+				C67727E5BC2F6773B8F522AF /* Pods-RSSReaderTask.release.xcconfig */,
+			);
+			name = "Pods-RSSReaderTask";
+			path = "Target Support Files/Pods-RSSReaderTask";
+			sourceTree = "<group>";
+		};
+		A8A3E0884316CD32B6C04D25 = {
+			isa = PBXGroup;
+			children = (
+				18247BAE7D20DB091A69D017 /* Podfile */,
+				B3F968AE8E2E37F06D64169D /* Frameworks */,
+				5E69F4BAD437BF607D132026 /* Pods */,
+				71901768F4ACA7B6BAA96120 /* Products */,
+				47E36C987BB7CB49D9406ED9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		B3F968AE8E2E37F06D64169D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18013237924E8668DB3F57A6 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BAD303FBD93640B64AD6A672 /* MWFeedParser */ = {
+			isa = PBXGroup;
+			children = (
+				7A7638383D31E8673F6C31A4 /* FeedParser */,
+				E302833F7E034782B280C779 /* NSDate+InternetDateTime */,
+				2237AA1170498F4BC09672B3 /* NSString+HTML */,
+				064CE6FCF0712554D77F2447 /* Support Files */,
+			);
+			path = MWFeedParser;
+			sourceTree = "<group>";
+		};
+		E302833F7E034782B280C779 /* NSDate+InternetDateTime */ = {
+			isa = PBXGroup;
+			children = (
+				B4CE508AC609DD7A824A03D1 /* NSDate+InternetDateTime.h */,
+				B453E5226DAEB2E60422C966 /* NSDate+InternetDateTime.m */,
+			);
+			name = "NSDate+InternetDateTime";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		773A5F9FF7722B9B77C1F27E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BC53EEB18C5A11798F219EC /* SVIndefiniteAnimatedView.h in Headers */,
+				ED7D8025145DF11A51BE736D /* SVProgressHUD.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D54CB558DC1A051FB0438C75 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B017ECDCD9163B4A9AA50894 /* GTMNSString+HTML.h in Headers */,
+				70A242ACCDFD0D10410D5D4D /* MWFeedInfo.h in Headers */,
+				77E88C7720107ACB203235F4 /* MWFeedItem.h in Headers */,
+				94A7511AEA35E5958055D73B /* MWFeedParser.h in Headers */,
+				852D8397FD2D2DFCC2BDBF31 /* MWFeedParser_Private.h in Headers */,
+				62BEAF2650449C5C05856497 /* NSDate+InternetDateTime.h in Headers */,
+				9B48CAB7C40BBFC8BF72E7C2 /* NSString+HTML.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		242698BF872E838EE30DAF62 /* Pods-RSSReaderTask-SVProgressHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 49FA78CFEDBE73107A27C971 /* Build configuration list for PBXNativeTarget "Pods-RSSReaderTask-SVProgressHUD" */;
+			buildPhases = (
+				409F0F94C58E4A6EC25B9E2A /* Sources */,
+				74A199A0B246D2387A777A6E /* Frameworks */,
+				773A5F9FF7722B9B77C1F27E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RSSReaderTask-SVProgressHUD";
+			productName = "Pods-RSSReaderTask-SVProgressHUD";
+			productReference = 20815F5104700E9EEA06D599 /* libPods-RSSReaderTask-SVProgressHUD.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CCF8B518178A2B7E4BF24A8C /* Pods-RSSReaderTask-MWFeedParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64A43B5410D373B52A242319 /* Build configuration list for PBXNativeTarget "Pods-RSSReaderTask-MWFeedParser" */;
+			buildPhases = (
+				F8972ADF0AD42A3BCC868DDB /* Sources */,
+				F4F5D6C1300B8B64D72E6E79 /* Frameworks */,
+				D54CB558DC1A051FB0438C75 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-RSSReaderTask-MWFeedParser";
+			productName = "Pods-RSSReaderTask-MWFeedParser";
+			productReference = 05148558A8AA9B81C51188BE /* libPods-RSSReaderTask-MWFeedParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FFDF97021797E12429B30904 /* Pods-RSSReaderTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F2CBC5135F31FC01289F811 /* Build configuration list for PBXNativeTarget "Pods-RSSReaderTask" */;
+			buildPhases = (
+				49C4C092533013FF53C1CF4D /* Sources */,
+				FCFD85D452B50B0CFCAFC050 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F1CFD29A7EC904979B950012 /* PBXTargetDependency */,
+				60E26A78C88E49EDC3FA0DB3 /* PBXTargetDependency */,
+			);
+			name = "Pods-RSSReaderTask";
+			productName = "Pods-RSSReaderTask";
+			productReference = AA00EBB6B34F1B0DAAE6C30F /* libPods-RSSReaderTask.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3F47B68B0460457E10CFFB02 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+			};
+			buildConfigurationList = 64170421427B0C72015B9F5C /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A8A3E0884316CD32B6C04D25;
+			productRefGroup = 71901768F4ACA7B6BAA96120 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFDF97021797E12429B30904 /* Pods-RSSReaderTask */,
+				CCF8B518178A2B7E4BF24A8C /* Pods-RSSReaderTask-MWFeedParser */,
+				242698BF872E838EE30DAF62 /* Pods-RSSReaderTask-SVProgressHUD */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		409F0F94C58E4A6EC25B9E2A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B7FCFB0177525EE4A349F85 /* Pods-RSSReaderTask-SVProgressHUD-dummy.m in Sources */,
+				49580E645711D35B3057B0B8 /* SVIndefiniteAnimatedView.m in Sources */,
+				7606A7384C4398459516C3D4 /* SVProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		49C4C092533013FF53C1CF4D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				12558D4C41AC46E115D033BD /* Pods-RSSReaderTask-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8972ADF0AD42A3BCC868DDB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB388DEA093BA55E5F225FC /* GTMNSString+HTML.m in Sources */,
+				28A438D1872976A67406CD95 /* MWFeedInfo.m in Sources */,
+				AD36EEE22B1BDDC06FCD2B6A /* MWFeedItem.m in Sources */,
+				662BD662CEE80EFF7128C035 /* MWFeedParser.m in Sources */,
+				9707B406C236BDBB043A4DE2 /* NSDate+InternetDateTime.m in Sources */,
+				D3CFBE073A80BE40CD60AED2 /* NSString+HTML.m in Sources */,
+				04C03A7FBBF00C5121D44886 /* Pods-RSSReaderTask-MWFeedParser-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		60E26A78C88E49EDC3FA0DB3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RSSReaderTask-SVProgressHUD";
+			target = 242698BF872E838EE30DAF62 /* Pods-RSSReaderTask-SVProgressHUD */;
+			targetProxy = C6F4C2B1363F3EC4FBF7463D /* PBXContainerItemProxy */;
+		};
+		F1CFD29A7EC904979B950012 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-RSSReaderTask-MWFeedParser";
+			target = CCF8B518178A2B7E4BF24A8C /* Pods-RSSReaderTask-MWFeedParser */;
+			targetProxy = 37251714B140C73910D441CC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1D4697F51A68900829B90C13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C67727E5BC2F6773B8F522AF /* Pods-RSSReaderTask.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		5637633D7EE84F83D0247D61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A2B0B5C245EF03326DC912 /* Pods-RSSReaderTask.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		65AF4662A77EE958AB3D65D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68A0A6E02CD6D80BB7D3208 /* Pods-RSSReaderTask-MWFeedParser-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RSSReaderTask-MWFeedParser/Pods-RSSReaderTask-MWFeedParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		9A93E4EFA60EA946A2867173 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		B8232ECE3046F2D25F80B0E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E79BF47B37F6BD61B636238 /* Pods-RSSReaderTask-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RSSReaderTask-SVProgressHUD/Pods-RSSReaderTask-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		C4EF513D3014BFB06A6711F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E79BF47B37F6BD61B636238 /* Pods-RSSReaderTask-SVProgressHUD-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RSSReaderTask-SVProgressHUD/Pods-RSSReaderTask-SVProgressHUD-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EA19948DA897741863CDBF84 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F9255D98378A9D29EA5D5E44 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E68A0A6E02CD6D80BB7D3208 /* Pods-RSSReaderTask-MWFeedParser-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-RSSReaderTask-MWFeedParser/Pods-RSSReaderTask-MWFeedParser-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		49FA78CFEDBE73107A27C971 /* Build configuration list for PBXNativeTarget "Pods-RSSReaderTask-SVProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B8232ECE3046F2D25F80B0E6 /* Debug */,
+				C4EF513D3014BFB06A6711F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64170421427B0C72015B9F5C /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A93E4EFA60EA946A2867173 /* Debug */,
+				EA19948DA897741863CDBF84 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64A43B5410D373B52A242319 /* Build configuration list for PBXNativeTarget "Pods-RSSReaderTask-MWFeedParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F9255D98378A9D29EA5D5E44 /* Debug */,
+				65AF4662A77EE958AB3D65D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F2CBC5135F31FC01289F811 /* Build configuration list for PBXNativeTarget "Pods-RSSReaderTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5637633D7EE84F83D0247D61 /* Debug */,
+				1D4697F51A68900829B90C13 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3F47B68B0460457E10CFFB02 /* Project object */;
+}
